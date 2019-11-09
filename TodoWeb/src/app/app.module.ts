@@ -27,6 +27,7 @@ import { MatButtonModule, MatCheckboxModule, MatToolbarModule, MatIconModule, Ma
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { NgxLoadingModule, ngxLoadingAnimationTypes } from 'ngx-loading';
 import { TodoListComponent } from './todo-list/todo-list.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   exports: [
@@ -84,6 +85,7 @@ export class MaterialModule {}
     TodoListComponent
   ],
   imports: [
+    HttpClientModule,
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
