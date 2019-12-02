@@ -2,7 +2,7 @@ using System;
 using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
 
-namespace TodoAPI.Models
+namespace CantoresAPI.Models
 {
     public class Todo
     {
