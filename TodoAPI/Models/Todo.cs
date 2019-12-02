@@ -11,7 +11,7 @@ namespace TodoAPI.Models
         public string Id { get; set; }
 
         [BsonElement("Title")]
-        public string TodoTitle { get; set; }
+        public string Cantores { get; set; }
 
         public string CreationDate { get; set; }
 
